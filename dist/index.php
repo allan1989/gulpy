@@ -1,5 +1,6 @@
 <?php include('./inc/header.php') ?>
 
-<img src='https://media.giphy.com/media/l0MYzwTebntNEii4M/giphy.gif'>
+<h1>Bienvenue</h1>
+
 
 <?php include('./inc/footer.php') ?>

@@ -49,7 +49,7 @@ function imageMinFunction(){
 function watch(){
   browserSync.init({
     open: 'external',
-    proxy: 'http://localhost/gulpy-2',
+    proxy: 'http://localhost/gulpy',
     port: 8080
 
   });

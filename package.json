@@ -4,7 +4,8 @@
   "description": "starter kit for projects",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "gulp --production"
   },
   "author": "Allan Rolle",
   "license": "ISC",
@@ -18,6 +19,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  }
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {}
 }

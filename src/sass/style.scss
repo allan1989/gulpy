@@ -1,9 +1,10 @@
-body{
-  background-color: blueviolet;
-  color: white;
-  font-size: 20px;
-}
+@import './module1';
+@import './module2';
 
-h1 {
-  text-decoration: underline;
+
+img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate((-50%, -50%));
 }
